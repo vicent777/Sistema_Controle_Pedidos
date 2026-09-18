@@ -88,12 +88,4 @@ pedido.consultarStatus(); // 'ENTREGUE'
 pedido.cancelar();        // lança erro: pedido entregue não pode ser cancelado
 ```
 
-## Estratégia de testes
-
-Os testes cobrem, para cada regra:
-
-- **Caminho feliz** — o comportamento esperado quando tudo está correto.
-- **Valores de fronteira** — nome com exatamente 3 caracteres, subtotal de R$ 100,00 e R$ 100,01, preço zero, quantidade zero.
-- **Caminhos de exceção** — entradas inválidas, transições de status proibidas.
-
 Resultado atual: **73 testes, 100% de cobertura** (statements, branches, functions e lines).
